@@ -27,9 +27,9 @@ let Seattle = {
   },
   finalResult (){
     for(let i = 0; i< hours.length; i++){
-      this.result.push(hours[i] + ': ' + this.cookiesPerHour[i]);
+      this.result.push(hours[i] + ': ' + this.cookiesPerHour[i] + ' cookies');
     }
-    this.result.push('Total: ' + this.totalDailyCookies);
+    this.result.push('Total: ' + this.totalDailyCookies + ' cookies');
   },
 };
 Seattle.calculateCustomerPerHour();
@@ -81,9 +81,9 @@ let Tokyo = {
   },
   finalResult (){
     for(let i = 0; i< hours.length; i++){
-      this.result.push(hours[i] + ': ' + this.cookiesPerHour[i]);
+      this.result.push(hours[i] + ': ' + this.cookiesPerHour[i] + ' cookies');
     }
-    this.result.push('Total: ' + this.totalDailyCookies);
+    this.result.push('Total: ' + this.totalDailyCookies + ' cookies');
   },
 };
 Tokyo.calculateCustomerPerHour();
@@ -134,9 +134,9 @@ let Dubai = {
   },
   finalResult (){
     for(let i = 0; i< hours.length; i++){
-      this.result.push(hours[i] + ': ' + this.cookiesPerHour[i]);
+      this.result.push(hours[i] + ': ' + this.cookiesPerHour[i] + ' cookies');
     }
-    this.result.push('Total: ' + this.totalDailyCookies);
+    this.result.push('Total: ' + this.totalDailyCookies + ' cookies');
   },
 };
 Dubai.calculateCustomerPerHour();
@@ -187,9 +187,9 @@ let Paris = {
   },
   finalResult (){
     for(let i = 0; i< hours.length; i++){
-      this.result.push(hours[i] + ': ' + this.cookiesPerHour[i]);
+      this.result.push(hours[i] + ': ' + this.cookiesPerHour[i] + ' cookies');
     }
-    this.result.push('Total: ' + this.totalDailyCookies);
+    this.result.push('Total: ' + this.totalDailyCookies + ' cookies');
   },
 };
 Paris.calculateCustomerPerHour();
@@ -240,9 +240,9 @@ let Lima = {
   },
   finalResult (){
     for(let i = 0; i< hours.length; i++){
-      this.result.push(hours[i] + ': ' + this.cookiesPerHour[i]);
+      this.result.push(hours[i] + ': ' + this.cookiesPerHour[i] + ' cookies');
     }
-    this.result.push('Total: ' + this.totalDailyCookies);
+    this.result.push('Total: ' + this.totalDailyCookies + ' cookies');
   },
 };
 Lima.calculateCustomerPerHour();
