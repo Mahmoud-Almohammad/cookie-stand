@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+    position: relative;
+    left: 7px;
+    top: 150px;
+}
+
+td, th {
+    border: 2px solid #A0E4CB;
+    padding: 10px;
+    font-size: 20px;
+}
+
+tr:nth-child(3), tr:nth-child(5),tr:nth-child(7){
+    background-color: #CFF5E7;
+}
