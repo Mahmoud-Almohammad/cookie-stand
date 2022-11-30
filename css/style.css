@@ -1,3 +1,8 @@
+html {
+    background-color: #A9AF7E;
+}
+
+
 table{
     border-collapse: collapse;
     text-align: center;
@@ -15,3 +20,135 @@ td, th {
 tr:nth-child(3), tr:nth-child(5),tr:nth-child(7){
     background-color: #CFF5E7;
 }
+
+img {
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 100px;
+    display: inline;
+    margin: 75px;
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+    color: #D8D8D8;
+}
+
+.sales {
+    display: inline;
+    font-size: 30px;
+    position: relative;
+    bottom: 50px;
+    margin: 150px;
+    color: #182747;
+}
+
+.header {
+    background-color: #647E68;
+}
+
+h4 {
+    border: 2px solid lightblue;
+    background-color: #404258;
+    font-size: 20px;
+    float: left;
+    box-shadow: 1px 1px 2px black;
+    display: inline;
+    padding: 30px;
+    color: #8EC3B0;
+}
+
+span {
+color: #DEF5E5;
+}
+
+#ourbranchs {
+    border: 5px solid #0E5E6F;
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    background-color: #BCEAD5;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+li {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    font-size: 23px;
+}
+
+.mainsalmonfish {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    margin-right: 50px;
+}
+
+.introduction{
+    line-height: 35px;
+    position: relative;
+    bottom: 60px;
+}
+
+.salmon-shape {
+width: 280px;
+height: 100px;
+    position: relative;
+    left: 1230px;
+    bottom: 170px;
+}
+
+.salmon-cookie{
+    width: 300px;
+    height: 110px;
+    position: relative;
+    right: 283px;
+    top: 70px;
+}
+
+.salmon-cutter{
+    width: 280px;
+height: 110px;
+    position: relative;
+    left: 1230px;
+    bottom: 190px;
+}
+
+.family{
+    width: 300px;
+    height: 130px;
+    position: relative;
+    right: 283px;
+    top: 105px;
+}
+
+.salmon-shirt{
+    width: 280px;
+height: 130px;
+    position: relative;
+    left: 1230px;
+    bottom: 215px;
+}
+
+.contact-us{
+    font-size: 25px;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+    color: #182747;
+}
+
