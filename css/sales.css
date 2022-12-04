@@ -1,0 +1,41 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+    position: relative;
+    left: 7px;
+    top: 150px;
+}
+
+td, th {
+    border: 2px solid #A0E4CB;
+    padding: 10px;
+    font-size: 20px;
+}
+
+tr:nth-child(3), tr:nth-child(5),tr:nth-child(7){
+    background-color: #CFF5E7;
+}
+
+a {
+    font-size: 25px;
+    float: right;
+    padding-right: 30px;
+    padding-top: 30px;
+    color:cornflowerblue;
+}
+
+form {
+    width: 700px;
+}
+
+fieldset label {
+    font-size: 20px;
+}
+
+#submit{
+    font-size: 20px;
+    position: relative;
+    left: 200px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
