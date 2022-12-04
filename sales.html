@@ -5,17 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salmon Cookies</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sales.css">
 </head>
 <body>
     <main>
-        <div>
             <a href="index.html">Home page</a>
-        </div>
+
+            <form id="createNewBranch">
+                <fieldset>
+                    <legend><h2> Insert a new branch</h2></legend>
+                    <label for="userBranchName">Name:</label>
+                    <input type="text" id="userBranchName" name="userBranchName" required>
+<br>
+<br>
+                    <label for="minimumCustomersPerHour">Minimum customers per hour:</label>
+                    <input type="number" id="minimumCustomersPerHour" name="minimumCustomersPerHour" min="0" required>
+<br>
+<br>
+                    <label for="maximumCustomersPerHour">Miximum customers per hour:</label>
+                    <input type="number" id="maximumCustomersPerHour" name="maximumCustomersPerHour" min="0" required>
+<br>
+<br>
+                    <label for="avgCookiesPerSale">Average cookies per sale:</label>
+                    <input type="number" id="avgCookiesPerSale" name="avgCookiesPerSale" step="any" min="1" required>
+<br>
+<br>
+                <input type="submit" value="Submit" id="submit">
+
+                </fieldset>
+                </form>
+
         <div id="container">
     
     </div>
-</div>
 </main>
 <script src="js/app.js"></script>
 </body>
