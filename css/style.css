@@ -73,6 +73,11 @@ h3 {
     font-size: 25px;
 }
 
+.welcoming {
+    font-size: 30px;
+    color: #282A3A;
+}
+
 p {
     text-align: center;
     font-size: 23px;
